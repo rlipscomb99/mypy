@@ -1,0 +1,18 @@
+>>> astring="hello world!"
+>>> print (astring.count("l"))
+3
+>>> print(astring[3:7])
+lo w
+>>> print(astring[3:7:2])
+l 
+>>> print(astring.upper())
+HELLO WORLD!
+>>> astring=atring[:6]+"friends"
+Traceback (most recent call last):
+  File "<pyshell#5>", line 1, in <module>
+    astring=atring[:6]+"friends"
+NameError: name 'atring' is not defined
+>>> astring=astring[:6]+"friends"
+>>> astring
+'hello friends'
+>>> 
